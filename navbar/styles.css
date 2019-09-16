@@ -1,0 +1,89 @@
+*{
+    color: rgb(3, 232, 248);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 15%;
+    width: 100%;
+    background-color: rgb(5, 6, 22);
+    font-family: ubuntu;
+    font-size: 1.2em;
+    
+}
+.nav-item{
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    flex: 2;
+    margin: 5%;
+    font-size: 1.4em;
+}
+
+.products-list{
+    align-self: flex-end;
+    display: none;
+    background-color: rgb(3, 29, 29);
+    list-style: none;
+}
+
+.products:hover .products-list{
+    display: block;
+}
+.products-list:hover {
+    display: block; 
+}
+.nav-show{
+    font-size: 3em;
+    display: none;
+    margin-bottom: 2%;
+}
+#nav-show-up{
+    display: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#nav-show-down{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+    nav {
+        flex-direction: column;
+    }
+    .nav-hide{
+        display: none;
+    }
+    .nav-show{
+        display: block;
+        align-self: flex-end;
+        margin-right: 5%;
+    }
+    #logo{
+        align-self: flex-start;
+    }
+}
+@media only screen and (min-width: 600px){
+    nav {
+        flex-direction: row;
+    }
+    .nav-hide{
+        display: block;
+    }
+    .nav-show{
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 90%;
+    margin: 0 5%;
+}
+.article-item{
+   max-width: 500px;
+}
+.article-image img{
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+.article-content h3{
+    margin-bottom: 10%;
+}
+.article-btn{
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10%;
+    width: 150px;
+    height: 50px;
+}

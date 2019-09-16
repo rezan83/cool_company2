@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+#column-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.column-image-item{
+    text-align: center;
+    max-width: 80%;
+    min-width: 300px;
+    margin-top: 5%;
+}

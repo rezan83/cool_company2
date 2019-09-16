@@ -1,0 +1,46 @@
+.slider-container h3{
+  text-align: center;
+  padding: 5%;
+}
+.slider-holder{
+	position: relative;
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  position: relative;
+  width: 1350px;
+  left: -750px;
+  list-style: none;
+  animation: slider 9s;
+}
+.animated {
+  width: 100px;
+  height: 100px;
+  /* background-color: red; */
+  float: left;
+  position: relative;
+  margin-right: 50px;
+  /* left: -800px */
+  /* animation: slider 8s;
+  animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+ 
+}
+.animated img{
+  width: 100px;
+  height: 100px;
+}
+
+/* @keyframes slider {
+  0%,10%   {left:-650px}
+  10%,20% {left:-550px}
+  30%,40% {left:-450px}
+  40%,50%  {left:-350px}
+  50%,60%  {left:-250px}
+  60%,70%  {left:-150px}
+  70%,80% {left:-50px}
+  80%,90% {left:50px}
+  90%,100% {left:-750px}
+} */
